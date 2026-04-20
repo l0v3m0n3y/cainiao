@@ -3,7 +3,7 @@ web api for global.cainiao.com Cainiao,Aliexpress,Alibaba,cainiao global trackin
 # main
 ```swift
 import Foundation
-let client = Cainia()
+let client = Cainiao()
 
 do {
     let info = try await client.search_detail(query_id: <id>)
@@ -16,6 +16,6 @@ do {
 
 # Launch (your script)
 ```
-swiftc -o cainia cainia.swift main.swift
-./cainia
+swiftc -o cainiao cainiao.swift main.swift
+./cainiao
 ```
