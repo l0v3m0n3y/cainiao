@@ -21,7 +21,7 @@ extension URLSession {
 }
 
 
-public class Cainia {
+public class Cainiao {
     private let api = "https://global.cainiao.com/global"
     private var headers: [String: String]
     
