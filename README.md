@@ -6,7 +6,7 @@ import Foundation
 let client = Cainiao()
 
 do {
-    let info = try await client.search_detail(query_id: <id>)
+    let info = try await client.searchDetail(queryId: <id>)
     print(info)
 } catch {
     print("Error: \(error)")
@@ -16,6 +16,5 @@ do {
 
 # Launch (your script)
 ```
-swiftc -o cainiao cainiao.swift main.swift
-./cainiao
+swift run
 ```
